@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+    <div id="root">
+        <input type="text" id="input" v-model="message">
+
+        <p>the content if the input is {{ message }}</p>
+    </div>
+
+    <script src="https://unpkg.com/vue@2.6.8/dist/vue.js"></script>
+
+    <script>
+        // let data = {
+        //     message: 'Hello World'
+        // }
+
+        // document.querySelector('#input').value = data.message;
+
+        new Vue({
+            el: "#root",
+            // data: data
+            data: {
+                message: 'Hello World'
+            }
+        });
+    </script>
+</body>
+</html>
