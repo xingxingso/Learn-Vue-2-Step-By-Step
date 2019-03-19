@@ -45,9 +45,44 @@
 
 - [Installation — Vue.js](https://vuejs.org/v2/guide/installation.html)
 
+### 02. [Setup Vue Devtools](https://laracasts.com/series/learn-vue-2-step-by-step/episodes/2?autoplay=true)
+
+> Let's install [Vue Devtools](https://chrome.google.com/webstore/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd) sooner, rather than later. As you'll see, this gives us a portal into any Vue instance on the page. Especially in these early stages, you'll get a lot of use out of this Chrome extension.
+
+#### Note
+
+> Install Chorme Extensions `Vue.js devtools`
+
+> After Install, right clikc the extension > `Manage extensions` > `Allow access to file URLs`
+
+> F12 >  `Vue` > select Components 
+
+![02-1](./readme/images/02-1.png)
+
+> `Console`
+
+```bash
+$vm0
+# Vue {_uid: 0, _isVue: true, $options: {…}, _renderProxy: Proxy, _self: Vue, …}
+
+$vm0.message
+# "Hello World"
+
+$vm0.message="I have been changed";
+# "I have been changed"
+```
+
+![02-2](./readme/images/02-2.png)
+
+#### Reference
+
+- [Vue.js devtools - Chrome Web Store](https://chrome.google.com/webstore/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd)
+
 ## References Collection
 
 - [Vue.js](https://vuejs.org/)
+
+- [Vue.js devtools - Chrome Web Store](https://chrome.google.com/webstore/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd)
 
 ### Type
 
